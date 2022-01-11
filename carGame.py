@@ -1,6 +1,9 @@
 engineStatus = "stopped"
+# Current status of the engine.
 
 exitCar = False
+
+# Sample code to test the workings of If/While loops. You can start and stop the engine or get the current status of the car. Use [Help] to take a look at the allowed commands.
 
 while not exitCar:
     engineCommand = input("Enter an Engine Command [Help]: ").lower()

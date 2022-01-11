@@ -1,6 +1,8 @@
 numberofLives = 3
 secretNumber = 9
 
+# This is a guessing game. If the number matches the secret number [In less than 3 shots], the game is completed succesfully. Good Luck.
+
 while numberofLives > 0:
     guessedNumber = int(input("Guess a number between 0-9: "))
     numberofLives -= 1
