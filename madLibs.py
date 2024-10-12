@@ -24,16 +24,16 @@ def mad_libs():
 
     # Adding randomness to make the story more interesting
     recoveryMethods = [
-        "rerouting traffic to a backup server",
-        "applying a hotfix to the service",
-        "resetting the affected instances",
-        "using chaos engineering to identify weaknesses"
+        "rerouting traffic to a backup server 🚀",
+        "applying a hotfix to the service 🛠️",
+        "resetting the affected instances 🔄",
+        "using chaos engineering to identify weaknesses 🔮"
     ]
     celebrationActivities = [
-        "took a well-deserved nap",
-        "had a team video game session",
-        "ordered pizza for everyone",
-        "shared a round of high-fives"
+        "took a well-deserved nap 🛌",
+        "had a team video game session 🎮",
+        "ordered pizza for everyone 🍕",
+        "shared a round of high-fives ✋"
     ]
 
     randomRecoveryMethod = random.choice(recoveryMethods)
@@ -47,7 +47,7 @@ def mad_libs():
         f"{userName} and {teamMember} worked tirelessly, analyzing logs and running diagnostics on the {favoriteService}. "
         f"After a few intense hours, they finally identified the root cause – a misconfigured load balancer that caused the outage. "
         f"Using {randomRecoveryMethod}, they restored the service and brought everything back online. "
-        f"To celebrate the successful recovery, {userName} and {teamMember} {randomCelebration}, while enjoying some {favoriteSnack}. "
+        f"To celebrate the successful recovery, {userName} and {teamMember} {randomCelebration}, while enjoying some {favoriteSnack} 🍫. "
         f"From that day forward, {userName} became known as the hero who saved the {favoriteService} from disaster, and their expertise with {favoriteTool} became legendary. "
         f"The whole team learned valuable lessons that day, and {userName} was even asked to share their experience during the next all-hands meeting. "
         f"It was a reminder to everyone that no matter how tough the incident, with teamwork, the right tools, and maybe a little {favoriteSnack}, anything is possible."
